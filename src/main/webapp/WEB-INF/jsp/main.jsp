@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: User
@@ -9,8 +10,9 @@
 <html>
 <head>
     <title>Title</title>
+    <link href="<c:url value="/resources/item-board_resources/css/main.css" />" rel="stylesheet">
 </head>
 <body>
-
+<%@ include file="common/header.jsp" %>
 </body>
 </html>

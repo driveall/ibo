@@ -18,4 +18,9 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+<!--    mapping resources(css)-->
+    <mvc:resources mapping="/resources/**" location="/resources/item-board_resources" cache-period="31556926"/>
+    <mvc:annotation-driven />
+
+
 </beans>
